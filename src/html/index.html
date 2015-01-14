@@ -9,6 +9,19 @@
     <link type="text/css" rel="stylesheet" href="../css/animate.min.css"/>
     <link type="text/css" rel="stylesheet" href="../css/yc.css"/>
     <link type="text/css" rel="stylesheet" href="../css/response.css"/>
+    <style type="text/css">
+        /*.animate-row {-webkit-transform:scale(1,1); opacity: 1;}*/
+        .mySubscribe-row:nth-child(1) { -webkit-transition: all .3s ease .2s;-webkit-transform:scale(1.5,1.5); opacity: 0; }
+        .animate-row.mySubscribe-row:nth-child(1) { -webkit-transform:scale(1,1); opacity: 1;}
+        .mySubscribe-row:nth-child(2) { -webkit-transition: all .3s ease .3s;-webkit-transform:scale(1.5,1.5); opacity: 0; }
+        .animate-row.mySubscribe-row:nth-child(2) { -webkit-transform:scale(1,1); opacity: 1;}
+        .mySubscribe-row:nth-child(3) { -webkit-transition: all .3s ease .4s;-webkit-transform:scale(1.5,1.5); opacity: 0; }
+        .animate-row.mySubscribe-row:nth-child(3) { -webkit-transform:scale(1,1); opacity: 1;}
+        .mySubscribe-row:nth-child(4) { -webkit-transition: all .3s ease .5s;-webkit-transform:scale(1.5,1.5); opacity: 0; }
+        .animate-row.mySubscribe-row:nth-child(4) { -webkit-transform:scale(1,1); opacity: 1;}
+        .mySubscribe-row:nth-child(5) { -webkit-transition: all .3s ease .6s;-webkit-transform:scale(1.5,1.5); opacity: 0; }
+        .animate-row.mySubscribe-row:nth-child(5) { -webkit-transform:scale(1,1); opacity: 1;}
+    </style>
 </head>
 <body>
     <!-- 首页 -->
@@ -229,7 +242,7 @@
         </section>
         <section class="bg-ff">
             <section class="layout-1">
-                <article class="list-content-row clearfix f-20">
+                <article class="list-content-row mySubscribe-row clearfix f-20">
                     <div class="l row-6 list-col"></div>
                     <div class="l list-row-name border-right-1" style="width:22%;">
                         <p>方正证券</p>
@@ -263,7 +276,7 @@
                         </div>
                     </div>
                 </article>
-                <article class="list-content-row clearfix f-20">
+                <article class="list-content-row mySubscribe-row clearfix f-20">
                     <div class="l row-7 list-col"></div>
                     <div class="l list-row-name border-right-1" style="width:22%;">
                         <p>方正证券</p>
@@ -297,7 +310,7 @@
                         </div>
                     </div>
                 </article>
-                <article class="list-content-row clearfix f-20">
+                <article class="list-content-row mySubscribe-row clearfix f-20">
                     <div class="l row-8 list-col"></div>
                     <div class="l list-row-name border-right-1" style="width:22%;">
                         <p>方正证券</p>
@@ -331,7 +344,7 @@
                         </div>
                     </div>
                 </article>
-                <article class="list-content-row clearfix f-20">
+                <article class="list-content-row mySubscribe-row clearfix f-20">
                     <div class="l row-9 list-col"></div>
                     <div class="l list-row-name border-right-1" style="width:22%;">
                         <p>方正证券</p>
@@ -365,7 +378,7 @@
                         </div>
                     </div>
                 </article>
-                <article class="list-content-row clearfix f-20">
+                <article class="list-content-row mySubscribe-row clearfix f-20">
                     <div class="l row-10 list-col"></div>
                     <div class="l list-row-name border-right-1" style="width:22%;">
                         <p>方正证券</p>
@@ -491,9 +504,13 @@
             var $f_node = $(this).closest('.list-content-row'),aChild = $f_node.children();
             aChild[2].style.display = "none";
             aChild[4].style.display = "none";
-            $(aChild[5]).show().find('a').removeClass('zoomOut').addClass('zoomIn');
-
+            $(aChild[5]).show().find('a').removeClass('bounceOut').addClass('bounceIn');
+            //rubberBand
             $f_node = aChild = null;
+        });
+        /* page loading */
+        $(function(){
+            $('.mySubscribe-row').addClass('animate-row');
         });
         $('.remove-row').on('click',function(){
             /*var content = $(this),

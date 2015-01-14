@@ -144,7 +144,7 @@
 .i-4 { width: 0.75rem; height: 0.75rem; background-color: #fff; -webkit-border-radius: 0.75rem; display: inline-block;}
 .i-4.active { background-color: #fea50b; }
 .i-5 { background: url('../img/wenhao.png') no-repeat; width: 3.5rem; height:3.5rem; background-size: auto 100%; display: inline-block; margin-right: 2.6rem;}
-.i-6 { background: url('../img/pan-edit.png') no-repeat; width: 3rem; height: 3rem; background-size: auto 100%; display: inline-block; margin-right: 2.6rem;}
+.i-6 { background: url('../img/pan-edit.png') no-repeat; width: 3.5rem; height: 3.5rem; background-size: auto 100%; display: inline-block; margin-right: 2.6rem;}
 .border-1 { background: url('../img/border-1.png') repeat-x; height: 2px; width: 100%;}
 .i-7 { background: url('../img/left.png') no-repeat; width: 2rem; height: 3.2rem; display: inline-block; background-size: auto 100%; position: absolute; left: 3%; top: 25%;}
 .i-8 { background: url('../img/error.png') no-repeat; width: 2.7rem; height: 2.8rem; display: inline-block; float: right; margin: 1.8rem 2rem 0 0; background-size: auto 100%;}
@@ -157,3 +157,4 @@
 
 /* animate */
 .sub-animate.subscribeSet { top:10%; opacity: 1;}
+
