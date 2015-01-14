@@ -30,12 +30,17 @@
     .head-btn-login { width: 6.2rem; height: 2.2rem; line-height: 2.2rem; margin-left: 1rem;}
     .nav-pic { width: 4.5rem; height: 4.5rem; margin-left: 1.1rem;}
     .i-showTime { text-indent: 1.5rem;}
-    .dialog1 { width: 8rem; height: 23.8rem;}
+    .dialog1 { width: 8rem; height: 23.9rem;}
     .list-content-row { margin-top: .25rem;}
     .row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7, .row-8, .row-9, .row-10 { height: 4.5rem; width: .5rem;}
     .list-row-name, .list-row-content { line-height: 1.65rem; padding-top: .75rem;}
     .list-row-name { height: 3.75rem;}
     .list-row-dl-2 { margin-left: 1rem}
+    .time-content { line-height: 1.75rem;}
+    .border-3 { width: 7.5rem; height: .7rem; bottom: -.8rem;}
+    .btn-ul-l a { width: 4rem; height: 4.5rem;}
+    .i-13 { width: 1.5rem; height: 1.5rem; margin-top: 1.5rem; background-position: -4px 0;}
+    .i-14 { width: 1rem; height: 1.5rem; margin-top: 1.5rem; background-position: -33px 0;}
     /*.list-row-dl-2 dt { width: 4rem;}*/
     /*.list-row-dl-2 dd { width: 3.5rem;}*/
     .list-row-dl { margin-left: 1.5rem;}
@@ -63,4 +68,12 @@
     .btn-warn-sure,.btn-warn-cancel { width: 10rem; height: 3rem; line-height: 3rem; border-radius: .1rem;}
     .btn-warn-cancel { margin-left: 2.5rem;}
     .warn-pic { width: 4rem; height: 4rem;}
+    /* 设置订阅 */
+    .set-title { line-height: 1.9rem;}
+    .set-content { line-height: 1.7rem;}
+    .form-row1 { height: 5.75rem;}
+    .form-row1 [type="checkbox"] { margin-top: 2.25rem;}
+    .set-content-edit { margin: 1.5rem 0 0 1.25rem; line-height: 2rem;}
+    .set-content-edit input { width: 6.5rem; height:18px;}
+    .btn-submit { height: 3rem; line-height: 3rem; border-radius: .25rem;}
 }
